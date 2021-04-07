@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<title>Ychebnik</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-inner">
+				 <a href="index.html"><img src="assets/img/SQL.png" alt="Mysql"></a>
+				<nav class="nav">
+					<a class="nav__link" href="Головна.html">Головна</a>
+					<a class="nav__link" href="Підручник.html">Підручник</a>
+					<a class="nav__link" href="Тести.html">Тестування</a>
+				</nav>
+			</div>
+		</div>
+		<hr align="bottom" width="79%" size="4px" color="#000000" />
+		
+
+			
+	</header>
+<div class="content">
+		<a class="nav__link" href="Підручник.html"><p class="zmist">ЗМІСТ</p></a>
+		<ul class="content1">
+				<li ><a class="content__inner" href="Розділ1.html">Розділ 1</a></li>
+				<li ><a class="content__inner_2" href="Розділ1.html">Типи даних</a></li>
+				<li ><a class="content__inner" href="Розділ2.html">Розділ 2</a></li>
+				<li ><a class="content__inner_2" href="Розділ2.html">Оператори</a></li>
+				<li style="background-color: #C0C0C0"><a class="content__inner" href="Розділ3.html">Розділ 3</a></li>
+				<li style="background-color: #C0C0C0"><a class="content__inner_2" href="Розділ3.html">Функції</a></li>
+				<li><a class="content__inner" href="Розділ4.html">Розділ 4</a></li>
+				<li><a class="content__inner_2" href="Розділ4.html">Синтаксис</a></li>
+			</ul>
+			<a href="Розділ2.html"><img class="arrow-left" src="assets/img/стрелка влево.png" alt="Mysql"></a>
+			<a href="Розділ4.html"><img class="arrow-right" src="assets/img/стрелка в право.png" alt="Mysql"></a>
+
+</div>
+
+
+	<div class="intro">
+		<div class="container__intro">
+			<div class="inner__intro">
+						<table border="1" width="100%" cellpadding="5">
+							<h1>Рядкові функції MySQL</h1>
+							<p>Строкові функції повертають NULL, якщо довжина результату виявляється більше, ніж вказано в значенні серверного параметра max_allowed_packet.</p>
+						   <tr>
+						    <th>Функція</th>
+						    <th>Опис</th>
+						   </tr>
+						   <tr>
+						    <td>ASCII</td>
+						    <td>Повертає код числа, що представляє конкретний символ</td>
+						  </tr>
+						   <tr>
+						    <td>CHAR_LENGTH</td>
+						    <td>Повертає довжину зазначеного рядка (в символах)</td>
+						  </tr>
+						  <tr>
+						    <td>CHARACTER_LENGTH </td>
+						    <td>Повертає довжину зазначеного рядка (в символах)</td>
+						  </tr>
+						  <tr>
+						    <td>CONCAT</td>
+						    <td>Об'єднує два або більше виразів разом</td>
+						  </tr>
+						  <tr>
+						    <td>CONCAT_WS </td>
+						    <td>Об'єднує два або більше виразів разом і додає роздільник між ними</td>
+						  </tr>
+						  <tr>
+						    <td>FIELD</td>
+						    <td>Повертає положення значення в списку значень</td>
+						  </tr>
+						  <tr>
+						    <td>FIND_IN_SET </td>
+						    <td>Повертає положення рядка в списку рядків</td>
+						  </tr>
+						  <tr>
+						    <td>FORMAT</td>
+						    <td>Форматує число як формат "#, # # #. # #", Округляючи його до певного числа десяткових розрядів</td>
+						  </tr>
+						  <tr>
+						    <td>INSERT</td>
+						    <td>вставляє підрядок в рядок в заданій позиції для певного числа символів</td>
+						  </tr>
+						  <tr>
+						    <td>INSTR</td>
+						    <td>Повертає позицію першого входження рядка в інший рядок</td>
+						  </tr>
+						  <tr>
+						    <td>LCASE</td>
+						    <td>Перетворює рядок в нижній регістр</td>
+						  </tr>
+						  <tr>
+						    <td>LEFT </td>
+						    <td>Витягує подстроку з рядка (починаючи з лівого)</td>
+						  </tr>
+						   <tr>
+						    <td>LENGTH</td>
+						    <td>Об'єднує два або більше виразів разом</td>
+						  </tr>
+						  <tr>
+						    <td>LOCATE </td>
+						    <td>Повертає позицію першого входження підрядка в рядок</td>
+						  </tr>
+						  <tr>
+						    <td>LOWER</td>
+						    <td>Перетворює рядок в нижній регістр</td>
+						  </tr>
+						  <tr>
+						    <td>LPAD </td>
+						    <td>Повертає рядок, яка заповнена з заданим рядком до певної довжини</td>
+						  </tr>
+						  <tr>
+						    <td>LTRIM </td>
+						    <td>Видалення початкових пробілів з рядка</td>
+						  </tr>
+						  <tr>
+						    <td>MID</td>
+						    <td>Витягує подстроку з рядка (починаючи з будь-якої позиції)</td>
+						  </tr>
+						  <tr>
+						    <td>POSITION</td>
+						    <td>Повертає позицію першого входження підрядка в рядок</td>
+						  </tr>
+						  <tr>
+						    <td>REPEAT</td>
+						    <td>Повторює рядок вказану кількість разів</td>
+						  </tr>
+						  <tr>
+						    <td>REPLACE</td>
+						    <td>Замінює всі входження зазначеного рядка</td>
+						  </tr>
+						</table>
+						<table border="1" width="100%" cellpadding="5">
+							<h1>Цифрові функції MySQL</h1>
+							<p>Цифрові функції слугують для роботи із числами та виразами</p>
+						   <tr>
+						    <th>Функція</th>
+						    <th>Опис</th>
+						   </tr>
+						   <tr>
+						    <td>ABS </td>
+						    <td>Повертає абсолютне значення числа</td>
+						  </tr>
+						   <tr>
+						    <td>ACOS</td>
+						    <td>Повертає синус дуги числа</td>
+						  </tr>
+						  <tr>
+						    <td>ASIN </td>
+						    <td>Повертає тангенс дуги числа або тангенса дуги n і m</td>
+						  </tr>
+						  <tr>
+						    <td>ATAN</td>
+						    <td>Повертає тангенс дуги n і m</td>
+						  </tr>
+						  <tr>
+						    <td>ATAN2 </td>
+						    <td>Об'єднує два або більше виразів разом і додає роздільник між ними</td>
+						  </tr>
+						  <tr>
+						    <td>AVG</td>
+						    <td>Повертає середнє значення виразу</td>
+						  </tr>
+						  <tr>
+						    <td>CEIL </td>
+						    <td>Повертає найменше ціле значення, що перевищує або дорівнює кількості</td>
+						  </tr>
+						  <tr>
+						    <td>CEILING</td>
+						    <td>Повертає найменше ціле значення, що перевищує або дорівнює кількості</td>
+						  </tr>
+						  <tr>
+						    <td>COS</td>
+						    <td>Повертає косинус числа</td>
+						  </tr>
+						  <tr>
+						    <td>COT</td>
+						    <td>Повертає котангенс числа</td>
+						  </tr>
+						  <tr>
+						    <td>COUNT</td>
+						    <td>Повертає кількість записів в запиті SELECT</td>
+						  </tr>
+						  <tr>
+						    <td>DEGREES</td>
+						    <td>Перетворює значення радіан в градуси</td>
+						  </tr>
+						   <tr>
+						    <td>DIV</td>
+						    <td>Використовується для цілочисельного ділення</td>
+						  </tr>
+						  <tr>
+						    <td>EXP</td>
+						    <td>Повертає значення e, зведене в силу числа</td>
+						  </tr>
+						  <tr>
+						    <td>FLOOR</td>
+						    <td>Повертає найбільше цілочисельне значення, менше або дорівнює кількості</td>
+						  </tr>
+						  <tr>
+						    <td>SIN</td>
+						    <td>Повертає синус числа</td>
+						  </tr>
+						  <tr>
+						    <td>SQRT</td>
+						    <td>Повертає квадратний корінь числа</td>
+						  </tr>
+						  <tr>
+						    <td>SUM</td>
+						    <td>Повертає підсумкова значення виразу</td>
+						  </tr>
+						  <tr>
+						    <td>TAN</td>
+						    <td>Повертає тангенс числа</td>
+						  </tr>
+						  <tr>
+						    <td>TRUNCATE</td>
+						    <td>Повертає число, усеченное до певного числа десяткових розрядів</td>
+						  </tr>
+						</table>
+						<table border="1" width="100%" cellpadding="5">
+							<h1>Дата функції MySQL</h1>
+							<p>MySQL має ряд вбудованих функцій для роботи з датами і часом</p>
+						   <tr>
+						    <th>Функція</th>
+						    <th>Опис</th>
+						   </tr>
+						   <tr>
+						    <td>ADDDATE</td>
+						    <td>Повертає дату після додавання певного інтервалу часу / дати</td>
+						  </tr>
+						   <tr>
+						    <td>ADDTIME</td>
+						    <td>Повертає час / DateTime після додавання певного часового інтервалу</td>
+						  </tr>
+						  <tr>
+						    <td>CURDATE</td>
+						    <td>Повертає поточну дату</td>
+						  </tr>
+						  <tr>
+						    <td>CURRENT_DATE </td>
+						    <td>Повертає поточну дату</td>
+						  </tr>
+						  <tr>
+						    <td>CURRENT_TIME </td>
+						    <td>Повертає поточний час</td>
+						  </tr>
+						  <tr>
+						    <td>CURRENT_TIMESTAMP </td>
+						    <td>Повертає поточну дату і час</td>
+						  </tr>
+						  <tr>
+						    <td>CURTIME</td>
+						    <td>Повертає поточний час</td>
+						  </tr>
+						  <tr>
+						    <td>DATE</td>
+						    <td>Витягує значення дати з виразу Date або DateTime</td>
+						  </tr>
+						  <tr>
+						    <td>DATEDIFF</td>
+						    <td>Повертає різницю в днях між двома значеннями дати</td>
+						  </tr>
+						  <tr>
+						    <td>DATE_ADD</td>
+						    <td>Повертає дату після додавання певного інтервалу часу / дати</td>
+						  </tr>
+						  <tr>
+						    <td>DATE_FORMAT</td>
+						    <td>Форматує дату, зазначену в масці форматування</td>
+						  </tr>
+						  <tr>
+						    <td>DAY</td>
+						    <td>Повертає частину дня значення дати</td>
+						  </tr>
+						  <tr>
+						    <td>DAYNAME</td>
+						    <td>Повертає ім'я дня тижня для дати</td>
+						  </tr>
+						  <tr>
+						    <td>DAYOFMONTH</td>
+						    <td>Повертає частину дня значення дати</td>
+						  </tr>
+						  <tr>
+						    <td>DAYOFMONTH</td>
+						    <td>Повертає частину дня значення дати</td>
+						  </tr>
+						</table>
+						<h1>Контрольні питання</h1>
+							<ul>
+								<li>Який опис у функції FORMAT?</li>
+								<li>Який опис у функції INSERT?</li>
+								<li>Який опис у функції REPLACE?</li>
+								<li>Який опис у функції DIV?</li>
+								<li>Який опис у функції DAYNAME?</li>
+							</ul>
+			</div>
+		</div>
+
+     </div>
+
+</body>
+</html>
